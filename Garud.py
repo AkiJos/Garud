@@ -39,7 +39,7 @@ def main():
 
 	optArgs.add_argument('--ha_key', action="store", help="Pass the Hybrid Analysis API Key", required=False)
 
-	optArgs.add_argument('--vt_key', action="store", help="Pass the VriusTotal API Key", required=False)
+	optArgs.add_argument('--vt_key', action="store", help="Pass the VirusTotal API Key", required=False)
 
 	requiredArgs.add_argument('--hash', action="store", help="Enter the hash value MD5/sha1/sha256", required=True)
 
